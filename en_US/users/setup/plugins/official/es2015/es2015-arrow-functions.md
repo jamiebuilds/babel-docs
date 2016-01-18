@@ -1,5 +1,7 @@
 # ES2015 Arrow Functions
 
+Compile ES2015 arrow functions to ES5
+
 ## Example
 
 **Input**

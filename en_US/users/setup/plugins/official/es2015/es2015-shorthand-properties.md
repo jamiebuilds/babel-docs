@@ -1,5 +1,7 @@
 # ES2015 Shorthand Properties
 
+Compile ES2015 shorthand properties to ES5
+
 ## Example
 
 **Input**

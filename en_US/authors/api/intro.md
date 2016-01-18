@@ -1,3 +1,5 @@
+# API
+
 Babel is actually a collection of modules. In this section we'll walk through
 the major ones, explaining what they do and how to use them.
 

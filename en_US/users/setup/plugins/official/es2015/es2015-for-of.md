@@ -1,5 +1,7 @@
 # ES2015 For Of
 
+Compile ES2015 for...of to ES5
+
 ## Example
 
 **Input**

@@ -1,5 +1,7 @@
 # ES2015 Object Super
 
+Compile ES2015 object super to ES5
+
 ## Example
 
 **Input**

@@ -1,5 +1,7 @@
 # ES2015 Sticky Regex
 
+Compile ES2015 sticky regex to an ES5 RegExp constructor
+
 ## Example
 
 **Input**

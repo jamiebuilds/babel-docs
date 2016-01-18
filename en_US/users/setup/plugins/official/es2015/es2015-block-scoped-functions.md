@@ -1,5 +1,8 @@
 # ES2015 Block Scoped Functions
 
+Babel plugin to ensure function declarations at the block level are block
+scoped.
+
 ## Example
 
 **Input**

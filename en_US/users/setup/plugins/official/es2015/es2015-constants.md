@@ -1,5 +1,7 @@
 # ES2015 Constants
 
+Validate ES2015 constants
+
 ## Example
 
 **Input**
@@ -21,7 +23,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-transform-es2015-constants
+$ npm install --save-dev babel-plugin-check-es2015-constants
 ```
 
 ### Usage
@@ -32,20 +34,20 @@ $ npm install --save-dev babel-plugin-transform-es2015-constants
 
 ```json
 {
-  "plugins": ["transform-es2015-constants"]
+  "plugins": ["check-es2015-constants"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin transform-es2015-constants
+babel script.js --plugin check-es2015-constants
 ```
 
 #### Via Node API
 
 ```js
-require("babel-core").transform("code", {
-  plugins: ["transform-es2015-constants"]
+require("babel-core").check("code", {
+  plugins: ["check-es2015-constants"]
 });
 ```

@@ -1,5 +1,7 @@
 # ES2015 Parameters
 
+Compile ES2015 default and rest parameters to ES5
+
 ## Example
 
 **Input**

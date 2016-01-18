@@ -1,5 +1,7 @@
 # ES2015 Spread
 
+Compile ES2015 spread to ES5
+
 ## Example
 
 **Input**

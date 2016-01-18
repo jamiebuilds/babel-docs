@@ -1,5 +1,7 @@
 # ES2015 Block Scoping
 
+Compile ES2015 block scoping (const and let) to ES5
+
 ## Example
 
 **Input**

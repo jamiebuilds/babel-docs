@@ -1,5 +1,7 @@
 # ES2015 Unicode Regex
 
+Compile ES2015 unicode regex to ES5
+
 ## Example
 
 **Input**

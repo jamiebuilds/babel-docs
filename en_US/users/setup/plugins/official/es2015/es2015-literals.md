@@ -1,5 +1,7 @@
 # ES2015 Literals
 
+Compile ES2015 unicode string and number literals to ES5
+
 ## Example
 
 **Input**

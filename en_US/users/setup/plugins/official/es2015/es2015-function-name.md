@@ -1,5 +1,7 @@
 # ES2015 Function Name
 
+Apply ES2015 function.name semantics to all functions
+
 ## Example
 
 **Input**

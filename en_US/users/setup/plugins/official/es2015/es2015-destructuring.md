@@ -1,5 +1,7 @@
 # ES2015 Destructuring
 
+Compile ES2015 destructuring to ES5
+
 ## Example
 
 **Input**

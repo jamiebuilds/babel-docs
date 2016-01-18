@@ -1,5 +1,7 @@
 # ES2015 Computed Properties
 
+Compile ES2015 computed properties to ES5
+
 ## Example
 
 **Input**

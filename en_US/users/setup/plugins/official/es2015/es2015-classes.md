@@ -1,5 +1,7 @@
 # ES2015 Classes
 
+Compile ES2015 classes to ES5
+
 ## Example
 
 **Input**
