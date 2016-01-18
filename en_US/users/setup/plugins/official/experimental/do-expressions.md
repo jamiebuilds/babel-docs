@@ -5,11 +5,19 @@
 **Input**
 
 ```js
+var x = do { if (test) x; else y }
+var x = do { while (x--) y; }
 ```
 
 **Output**
 
 ```js
+var x = test ? x : y;
+var x = function() {
+  var _ret;
+  while (x--) _ret = y;
+  return _ret;
+}();
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

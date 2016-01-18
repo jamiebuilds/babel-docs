@@ -5,11 +5,13 @@
 **Input**
 
 ```js
+2 ** 2;
 ```
 
 **Output**
 
 ```js
+Math.pow(2, 2);
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

@@ -5,11 +5,18 @@
 **Input**
 
 ```js
+ctx::func;
+ctx::func();
 ```
 
 **Output**
 
 ```js
+var _context;
+(_context = ctx, func).bind(_context);
+
+var _context2;
+(_context2 = ctx, func).call(_context2);
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

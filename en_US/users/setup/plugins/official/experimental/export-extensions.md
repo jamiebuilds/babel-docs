@@ -5,11 +5,23 @@
 **Input**
 
 ```js
+export foo from "bar";
+export * as foo from "bar";
+export v, { x, y as w } from "mod";
 ```
 
 **Output**
 
 ```js
+import _foo from "bar";
+export { _foo as foo };
+
+import * as _foo from "bar";
+export { _foo as foo };
+
+import _v from "mod";
+export { _v as v };
+export { x, y as w } from "mod";
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

@@ -5,11 +5,13 @@
 **Input**
 
 ```js
+z = { x, ...y };
 ```
 
 **Output**
 
 ```js
+z = _extends({ x }, y);
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation
