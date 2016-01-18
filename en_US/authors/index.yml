@@ -1,0 +1,10 @@
+files:
+  - name: Introduction
+    path: intro.md
+directories:
+  - name: Basics
+    path: basics.md
+  - name: API
+    path: api.md
+  - name: Guides
+    path: guides.md
