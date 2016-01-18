@@ -2,6 +2,9 @@
 
 Compile exponentiation operator to ES5
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-exponentation-operator)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-exponentation-operator)
+
 ## Example
 
 **Input**

@@ -2,6 +2,9 @@
 
 Compile class call constructors to ES2015
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-constructor-call)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-class-constructor-call)
+
 ## Example
 
 **Input**

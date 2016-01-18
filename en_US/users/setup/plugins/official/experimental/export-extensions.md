@@ -2,6 +2,9 @@
 
 Compile export extensions to ES2015
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-export-extensions)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-export-extensions)
+
 ## Example
 
 **Input**

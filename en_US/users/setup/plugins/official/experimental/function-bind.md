@@ -2,6 +2,9 @@
 
 Compile function bind operator to ES5
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-function-bind)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-function-bind)
+
 ## Example
 
 **Input**

@@ -2,6 +2,9 @@
 
 Compile do expressions to ES5
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-do-expressions)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-do-expressions)
+
 ## Example
 
 **Input**

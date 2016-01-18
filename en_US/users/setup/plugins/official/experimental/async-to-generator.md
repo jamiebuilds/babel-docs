@@ -2,6 +2,9 @@
 
 Compile async functions to ES2015 generators
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-to-generator)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-async-to-generator)
+
 ## Example
 
 **Input**

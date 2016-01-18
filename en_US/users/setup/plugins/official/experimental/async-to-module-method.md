@@ -2,6 +2,9 @@
 
 Compile async functions to Bluebird coroutines
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-async-to-module-method)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-async-to-module-method)
+
 ## Example
 
 **Input**

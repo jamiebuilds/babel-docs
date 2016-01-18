@@ -2,6 +2,9 @@
 
 Compile object rest and spread to ES5
 
+- [GitHub](https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread)
+- [npm](https://www.npmjs.com/package/babel-plugin-transform-object-rest-spread)
+
 ## Example
 
 **Input**
