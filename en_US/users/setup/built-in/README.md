@@ -1,5 +1,5 @@
 # Babel Integrating Using Built-in Methods Documentation
 
-- [Node](node)
-- [CLI](cli)
-- [Register](register)
+- [Node](node.md)
+- [CLI](cli.md)
+- [Register](register.md)

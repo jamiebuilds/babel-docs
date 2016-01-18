@@ -1,8 +1,8 @@
 # Babel Integrating Frameworks Documentation
 
-- [Angular](angular)
-- [Ember](ember)
-- [Meteor](meteor)
-- [Rails](rails)
-- [React](react)
-- [Sails](sails)
+- [Angular](angular.md)
+- [Ember](ember.md)
+- [Meteor](meteor.md)
+- [Rails](rails.md)
+- [React](react.md)
+- [Sails](sails.md)

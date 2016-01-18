@@ -1,6 +1,6 @@
 # Babel Integrating Editors Documentation
 
-- [Atom](atom)
-- [Sublime Text](sublime-text)
-- [Vim](vim)
-- [WebStorm](webstorm)
+- [Atom](atom.md)
+- [Sublime Text](sublime-text.md)
+- [Vim](vim.md)
+- [WebStorm](webstorm.md)
