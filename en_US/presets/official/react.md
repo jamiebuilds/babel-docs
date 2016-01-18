@@ -1,7 +1,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-classes
+$ npm install --save-dev babel-preset-react
 ```
 
 ### Usage
@@ -12,20 +12,20 @@ $ npm install --save-dev babel-plugin-es2015-classes
 
 ```json
 {
-  "plugins": ["es2015-classes"]
+  "presets": ["react"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-classes
+babel script.js --preset react
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-classes"]
+  presets: ["react"]
 });
 ```

@@ -1,0 +1,14 @@
+files:
+  - name: ES2015
+    path: es2015.md
+  - name: React
+    path: react.md
+  - name: Stage 0
+    path: stage-0.md
+  - name: Stage 1
+    path: stage-1.md
+  - name: Stage 2
+    path: stage-2.md
+  - name: Stage 3
+    path: stage-3.md
+

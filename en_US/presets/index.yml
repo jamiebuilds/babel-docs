@@ -1,0 +1,5 @@
+directories:
+  - name: Official
+    path: official
+  - name: Community
+    path: community

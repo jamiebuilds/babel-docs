@@ -1,7 +1,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-classes
+$ npm install --save-dev babel-preset-stage-3
 ```
 
 ### Usage
@@ -12,20 +12,20 @@ $ npm install --save-dev babel-plugin-es2015-classes
 
 ```json
 {
-  "plugins": ["es2015-classes"]
+  "presets": ["stage-3"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-classes
+babel script.js --preset stage-3
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-classes"]
+  presets: ["stage-3"]
 });
 ```

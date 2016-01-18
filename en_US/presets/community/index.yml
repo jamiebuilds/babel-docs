@@ -1,0 +1,7 @@
+files:
+  - name: ES2015 Loose
+    path: es2015-loose.md
+  - name: ES2015 Node 4
+    path: es2015-node4.md
+  - name: ES2015 Node 5
+    path: es2015-node5.md
