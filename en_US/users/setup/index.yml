@@ -1,0 +1,19 @@
+directories:
+  - name: Presets
+    path: presets
+  - name: Plugins
+    path: plugins
+  - name: Build Systems
+    path: build-systems
+  - name: Built In
+    path: built-in
+  - name: Editors
+    path: editors
+  - name: Frameworks
+    path: frameworks
+  - name: Languages
+    path: languages
+  - name: Test Frameworks
+    path: test-frameworks
+  - name: Tools
+    path: tools
