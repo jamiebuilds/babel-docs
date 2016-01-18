@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-remove-debugger
+$ npm install --save-dev babel-plugin-transform-remove-debugger
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-remove-debugger
 
 ```json
 {
-  "plugins": ["remove-debugger"]
+  "plugins": ["transform-remove-debugger"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin remove-debugger
+babel script.js --plugin transform-remove-debugger
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["remove-debugger"]
+  plugins: ["transform-remove-debugger"]
 });
 ```

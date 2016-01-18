@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-block-scoping
+$ npm install --save-dev babel-plugin-transform-es2015-block-scoping
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-block-scoping
 
 ```json
 {
-  "plugins": ["es2015-block-scoping"]
+  "plugins": ["transform-es2015-block-scoping"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-block-scoping
+babel script.js --plugin transform-es2015-block-scoping
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-block-scoping"]
+  plugins: ["transform-es2015-block-scoping"]
 });
 ```

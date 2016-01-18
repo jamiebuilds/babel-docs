@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-strict-mode
+$ npm install --save-dev babel-plugin-transform-strict-mode
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-strict-mode
 
 ```json
 {
-  "plugins": ["strict-mode"]
+  "plugins": ["transform-strict-mode"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin strict-mode
+babel script.js --plugin transform-strict-mode
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["strict-mode"]
+  plugins: ["transform-strict-mode"]
 });
 ```

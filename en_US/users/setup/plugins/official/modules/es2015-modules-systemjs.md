@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-modules-systemjs
+$ npm install --save-dev babel-plugin-transform-es2015-modules-systemjs
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-modules-systemjs
 
 ```json
 {
-  "plugins": ["es2015-modules-systemjs"]
+  "plugins": ["transform-es2015-modules-systemjs"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-modules-systemjs
+babel script.js --plugin transform-es2015-modules-systemjs
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-modules-systemjs"]
+  plugins: ["transform-es2015-modules-systemjs"]
 });
 ```

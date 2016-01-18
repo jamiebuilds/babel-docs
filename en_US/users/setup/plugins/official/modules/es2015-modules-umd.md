@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-modules-umd
+$ npm install --save-dev babel-plugin-transform-es2015-modules-umd
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-modules-umd
 
 ```json
 {
-  "plugins": ["es2015-modules-umd"]
+  "plugins": ["transform-es2015-modules-umd"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-modules-umd
+babel script.js --plugin transform-es2015-modules-umd
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-modules-umd"]
+  plugins: ["transform-es2015-modules-umd"]
 });
 ```

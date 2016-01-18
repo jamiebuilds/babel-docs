@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-merge-sibling-variables
+$ npm install --save-dev babel-plugin-transform-merge-sibling-variables
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-merge-sibling-variables
 
 ```json
 {
-  "plugins": ["merge-sibling-variables"]
+  "plugins": ["transform-merge-sibling-variables"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin merge-sibling-variables
+babel script.js --plugin transform-merge-sibling-variables
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["merge-sibling-variables"]
+  plugins: ["transform-merge-sibling-variables"]
 });
 ```

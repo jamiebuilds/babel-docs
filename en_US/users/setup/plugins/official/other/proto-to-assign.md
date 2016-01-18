@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-proto-to-assign
+$ npm install --save-dev babel-plugin-transform-proto-to-assign
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-proto-to-assign
 
 ```json
 {
-  "plugins": ["proto-to-assign"]
+  "plugins": ["transform-proto-to-assign"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin proto-to-assign
+babel script.js --plugin transform-proto-to-assign
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["proto-to-assign"]
+  plugins: ["transform-proto-to-assign"]
 });
 ```

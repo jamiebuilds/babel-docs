@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-jscript
+$ npm install --save-dev babel-plugin-transform-jscript
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-jscript
 
 ```json
 {
-  "plugins": ["jscript"]
+  "plugins": ["transform-jscript"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin jscript
+babel script.js --plugin transform-jscript
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["jscript"]
+  plugins: ["transform-jscript"]
 });
 ```

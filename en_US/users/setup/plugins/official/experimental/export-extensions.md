@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-export-extensions
+$ npm install --save-dev babel-plugin-transform-export-extensions
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-export-extensions
 
 ```json
 {
-  "plugins": ["export-extensions"]
+  "plugins": ["transform-export-extensions"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin export-extensions
+babel script.js --plugin transform-export-extensions
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["export-extensions"]
+  plugins: ["transform-export-extensions"]
 });
 ```

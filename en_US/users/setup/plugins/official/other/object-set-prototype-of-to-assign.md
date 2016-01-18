@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-object-set-prototype-of-to-assign
+$ npm install --save-dev babel-plugin-transform-object-set-prototype-of-to-assign
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-object-set-prototype-of-to-assign
 
 ```json
 {
-  "plugins": ["object-set-prototype-of-to-assign"]
+  "plugins": ["transform-object-set-prototype-of-to-assign"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin object-set-prototype-of-to-assign
+babel script.js --plugin transform-object-set-prototype-of-to-assign
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["object-set-prototype-of-to-assign"]
+  plugins: ["transform-object-set-prototype-of-to-assign"]
 });
 ```

@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-react-jsx
+$ npm install --save-dev babel-plugin-transform-react-jsx
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-react-jsx
 
 ```json
 {
-  "plugins": ["react-jsx"]
+  "plugins": ["transform-react-jsx"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin react-jsx
+babel script.js --plugin transform-react-jsx
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["react-jsx"]
+  plugins: ["transform-react-jsx"]
 });
 ```

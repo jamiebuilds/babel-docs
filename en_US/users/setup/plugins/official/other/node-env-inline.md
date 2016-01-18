@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-node-env-inline
+$ npm install --save-dev babel-plugin-transform-node-env-inline
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-node-env-inline
 
 ```json
 {
-  "plugins": ["node-env-inline"]
+  "plugins": ["transform-node-env-inline"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin node-env-inline
+babel script.js --plugin transform-node-env-inline
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["node-env-inline"]
+  plugins: ["transform-node-env-inline"]
 });
 ```

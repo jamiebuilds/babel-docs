@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-react-constant-elements
+$ npm install --save-dev babel-plugin-transform-react-constant-elements
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-react-constant-elements
 
 ```json
 {
-  "plugins": ["react-constant-elements"]
+  "plugins": ["transform-react-constant-elements"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin react-constant-elements
+babel script.js --plugin transform-react-constant-elements
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["react-constant-elements"]
+  plugins: ["transform-react-constant-elements"]
 });
 ```

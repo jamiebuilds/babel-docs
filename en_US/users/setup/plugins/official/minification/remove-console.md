@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-remove-console
+$ npm install --save-dev babel-plugin-transform-remove-console
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-remove-console
 
 ```json
 {
-  "plugins": ["remove-console"]
+  "plugins": ["transform-remove-console"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin remove-console
+babel script.js --plugin transform-remove-console
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["remove-console"]
+  plugins: ["transform-remove-console"]
 });
 ```

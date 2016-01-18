@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-modules-commonjs
+$ npm install --save-dev babel-plugin-transform-es2015-modules-commonjs
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-modules-commonjs
 
 ```json
 {
-  "plugins": ["es2015-modules-commonjs"]
+  "plugins": ["transform-es2015-modules-commonjs"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-modules-commonjs
+babel script.js --plugin transform-es2015-modules-commonjs
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-modules-commonjs"]
+  plugins: ["transform-es2015-modules-commonjs"]
 });
 ```

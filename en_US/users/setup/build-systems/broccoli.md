@@ -8,6 +8,8 @@ $ npm install --save-dev broccoli-babel-transpiler
 
 ### Usage
 
+Inside of your `Brocfile.js` add the following:
+
 ```js
 var babelTranspiler = require("broccoli-babel-transpiler");
 var scriptTree = babelTranspiler(inputTree, options);

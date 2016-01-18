@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-object-rest-spread
+$ npm install --save-dev babel-plugin-transform-object-rest-spread
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-object-rest-spread
 
 ```json
 {
-  "plugins": ["object-rest-spread"]
+  "plugins": ["transform-object-rest-spread"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin object-rest-spread
+babel script.js --plugin transform-object-rest-spread
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["object-rest-spread"]
+  plugins: ["transform-object-rest-spread"]
 });
 ```

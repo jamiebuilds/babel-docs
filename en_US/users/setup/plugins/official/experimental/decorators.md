@@ -1,9 +1,11 @@
 # Decorators
 
+> ***THIS PLUGIN HAS NOT YET BEEN IMPLEMENTED. WAITING ON THE UPDATED PROPOSAL***
+
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-decorators
+$ npm install --save-dev babel-plugin-transform-decorators
 ```
 
 ### Usage
@@ -14,20 +16,20 @@ $ npm install --save-dev babel-plugin-decorators
 
 ```json
 {
-  "plugins": ["decorators"]
+  "plugins": ["transform-decorators"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin decorators
+babel script.js --plugin transform-decorators
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["decorators"]
+  plugins: ["transform-decorators"]
 });
 ```

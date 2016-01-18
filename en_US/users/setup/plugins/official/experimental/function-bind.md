@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-function-bind
+$ npm install --save-dev babel-plugin-transform-function-bind
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-function-bind
 
 ```json
 {
-  "plugins": ["function-bind"]
+  "plugins": ["transform-function-bind"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin function-bind
+babel script.js --plugin transform-function-bind
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["function-bind"]
+  plugins: ["transform-function-bind"]
 });
 ```

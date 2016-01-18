@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-undefined-to-void
+$ npm install --save-dev babel-plugin-transform-undefined-to-void
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-undefined-to-void
 
 ```json
 {
-  "plugins": ["undefined-to-void"]
+  "plugins": ["transform-undefined-to-void"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin undefined-to-void
+babel script.js --plugin transform-undefined-to-void
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["undefined-to-void"]
+  plugins: ["transform-undefined-to-void"]
 });
 ```

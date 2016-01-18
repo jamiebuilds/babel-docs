@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-runtime
+$ npm install --save-dev babel-plugin-transform-runtime
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-runtime
 
 ```json
 {
-  "plugins": ["runtime"]
+  "plugins": ["transform-runtime"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin runtime
+babel script.js --plugin transform-runtime
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["runtime"]
+  plugins: ["transform-runtime"]
 });
 ```

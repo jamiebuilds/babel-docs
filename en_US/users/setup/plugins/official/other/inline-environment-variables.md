@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-inline-environment-variable
+$ npm install --save-dev babel-plugin-transform-inline-environment-variable
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-inline-environment-variable
 
 ```json
 {
-  "plugins": ["inline-environment-variable"]
+  "plugins": ["transform-inline-environment-variable"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin inline-environment-variable
+babel script.js --plugin transform-inline-environment-variable
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["inline-environment-variable"]
+  plugins: ["transform-inline-environment-variable"]
 });
 ```

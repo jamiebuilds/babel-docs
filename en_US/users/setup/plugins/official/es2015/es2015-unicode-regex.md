@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-unicode-regex
+$ npm install --save-dev babel-plugin-transform-es2015-unicode-regex
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-unicode-regex
 
 ```json
 {
-  "plugins": ["es2015-unicode-regex"]
+  "plugins": ["transform-es2015-unicode-regex"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-unicode-regex
+babel script.js --plugin transform-es2015-unicode-regex
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-unicode-regex"]
+  plugins: ["transform-es2015-unicode-regex"]
 });
 ```

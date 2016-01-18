@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-destructuring
+$ npm install --save-dev babel-plugin-transform-es2015-destructuring
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-destructuring
 
 ```json
 {
-  "plugins": ["es2015-destructuring"]
+  "plugins": ["transform-es2015-destructuring"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-destructuring
+babel script.js --plugin transform-es2015-destructuring
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-destructuring"]
+  plugins: ["transform-es2015-destructuring"]
 });
 ```

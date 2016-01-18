@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-react-display-name
+$ npm install --save-dev babel-plugin-transform-react-display-name
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-react-display-name
 
 ```json
 {
-  "plugins": ["react-display-name"]
+  "plugins": ["transform-react-display-name"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin react-display-name
+babel script.js --plugin transform-react-display-name
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["react-display-name"]
+  plugins: ["transform-react-display-name"]
 });
 ```

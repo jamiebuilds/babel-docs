@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-member-expression-literals
+$ npm install --save-dev babel-plugin-transform-member-expression-literals
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-member-expression-literals
 
 ```json
 {
-  "plugins": ["member-expression-literals"]
+  "plugins": ["transform-member-expression-literals"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin member-expression-literals
+babel script.js --plugin transform-member-expression-literals
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["member-expression-literals"]
+  plugins: ["transform-member-expression-literals"]
 });
 ```

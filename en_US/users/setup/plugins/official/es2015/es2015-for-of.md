@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-for-of
+$ npm install --save-dev babel-plugin-transform-es2015-for-of
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-for-of
 
 ```json
 {
-  "plugins": ["es2015-for-of"]
+  "plugins": ["transform-es2015-for-of"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-for-of
+babel script.js --plugin transform-es2015-for-of
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-for-of"]
+  plugins: ["transform-es2015-for-of"]
 });
 ```

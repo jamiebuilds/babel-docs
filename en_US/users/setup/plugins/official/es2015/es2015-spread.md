@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-spread
+$ npm install --save-dev babel-plugin-transform-es2015-spread
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-spread
 
 ```json
 {
-  "plugins": ["es2015-spread"]
+  "plugins": ["transform-es2015-spread"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-spread
+babel script.js --plugin transform-es2015-spread
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-spread"]
+  plugins: ["transform-es2015-spread"]
 });
 ```

@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-regenerator
+$ npm install --save-dev babel-plugin-transform-regenerator
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-regenerator
 
 ```json
 {
-  "plugins": ["regenerator"]
+  "plugins": ["transform-regenerator"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin regenerator
+babel script.js --plugin transform-regenerator
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["regenerator"]
+  plugins: ["transform-regenerator"]
 });
 ```

@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-parameters
+$ npm install --save-dev babel-plugin-transform-es2015-parameters
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-parameters
 
 ```json
 {
-  "plugins": ["es2015-parameters"]
+  "plugins": ["transform-es2015-parameters"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-parameters
+babel script.js --plugin transform-es2015-parameters
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-parameters"]
+  plugins: ["transform-es2015-parameters"]
 });
 ```

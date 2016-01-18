@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-do-expressions
+$ npm install --save-dev babel-plugin-transform-do-expressions
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-do-expressions
 
 ```json
 {
-  "plugins": ["do-expressions"]
+  "plugins": ["transform-do-expressions"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin do-expressions
+babel script.js --plugin transform-do-expressions
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["do-expressions"]
+  plugins: ["transform-do-expressions"]
 });
 ```

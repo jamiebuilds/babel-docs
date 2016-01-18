@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-classes
+$ npm install --save-dev babel-plugin-transform-es2015-classes
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-classes
 
 ```json
 {
-  "plugins": ["es2015-classes"]
+  "plugins": ["transform-es2015-classes"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-classes
+babel script.js --plugin transform-es2015-classes
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-classes"]
+  plugins: ["transform-es2015-classes"]
 });
 ```

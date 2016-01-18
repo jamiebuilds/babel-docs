@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-shorthand-properties
+$ npm install --save-dev babel-plugin-transform-es2015-shorthand-properties
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-shorthand-properties
 
 ```json
 {
-  "plugins": ["es2015-shorthand-properties"]
+  "plugins": ["transform-es2015-shorthand-properties"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-shorthand-properties
+babel script.js --plugin transform-es2015-shorthand-properties
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-shorthand-properties"]
+  plugins: ["transform-es2015-shorthand-properties"]
 });
 ```

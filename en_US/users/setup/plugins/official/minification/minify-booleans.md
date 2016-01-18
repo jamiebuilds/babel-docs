@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-minify-booleans
+$ npm install --save-dev babel-plugin-transform-minify-booleans
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-minify-booleans
 
 ```json
 {
-  "plugins": ["minify-booleans"]
+  "plugins": ["transform-minify-booleans"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin minify-booleans
+babel script.js --plugin transform-minify-booleans
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["minify-booleans"]
+  plugins: ["transform-minify-booleans"]
 });
 ```

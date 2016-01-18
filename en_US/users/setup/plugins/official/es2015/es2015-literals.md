@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-literals
+$ npm install --save-dev babel-plugin-transform-es2015-literals
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-literals
 
 ```json
 {
-  "plugins": ["es2015-literals"]
+  "plugins": ["transform-es2015-literals"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-literals
+babel script.js --plugin transform-es2015-literals
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-literals"]
+  plugins: ["transform-es2015-literals"]
 });
 ```

@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-object-assign
+$ npm install --save-dev babel-plugin-transform-object-assign
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-object-assign
 
 ```json
 {
-  "plugins": ["object-assign"]
+  "plugins": ["transform-object-assign"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin object-assign
+babel script.js --plugin transform-object-assign
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["object-assign"]
+  plugins: ["transform-object-assign"]
 });
 ```

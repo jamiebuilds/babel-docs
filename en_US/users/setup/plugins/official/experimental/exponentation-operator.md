@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-exponentation-operator
+$ npm install --save-dev babel-plugin-transform-exponentation-operator
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-exponentation-operator
 
 ```json
 {
-  "plugins": ["exponentation-operator"]
+  "plugins": ["transform-exponentation-operator"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin exponentation-operator
+babel script.js --plugin transform-exponentation-operator
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["exponentation-operator"]
+  plugins: ["transform-exponentation-operator"]
 });
 ```

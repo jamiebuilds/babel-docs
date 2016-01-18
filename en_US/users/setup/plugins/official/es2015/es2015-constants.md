@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-es2015-constants
+$ npm install --save-dev babel-plugin-transform-es2015-constants
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-es2015-constants
 
 ```json
 {
-  "plugins": ["es2015-constants"]
+  "plugins": ["transform-es2015-constants"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin es2015-constants
+babel script.js --plugin transform-es2015-constants
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["es2015-constants"]
+  plugins: ["transform-es2015-constants"]
 });
 ```

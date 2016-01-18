@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-react-inline-elements
+$ npm install --save-dev babel-plugin-transform-react-inline-elements
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-react-inline-elements
 
 ```json
 {
-  "plugins": ["react-inline-elements"]
+  "plugins": ["transform-react-inline-elements"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin react-inline-elements
+babel script.js --plugin transform-react-inline-elements
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["react-inline-elements"]
+  plugins: ["transform-react-inline-elements"]
 });
 ```

@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-flow-comments
+$ npm install --save-dev babel-plugin-transform-flow-comments
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-flow-comments
 
 ```json
 {
-  "plugins": ["flow-comments"]
+  "plugins": ["transform-flow-comments"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin flow-comments
+babel script.js --plugin transform-flow-comments
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["flow-comments"]
+  plugins: ["transform-flow-comments"]
 });
 ```

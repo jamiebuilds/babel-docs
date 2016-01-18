@@ -3,7 +3,7 @@
 ### Installation
 
 ```sh
-$ npm install --save-dev babel-plugin-simplify-comparison-operators
+$ npm install --save-dev babel-plugin-transform-simplify-comparison-operators
 ```
 
 ### Usage
@@ -14,20 +14,20 @@ $ npm install --save-dev babel-plugin-simplify-comparison-operators
 
 ```json
 {
-  "plugins": ["simplify-comparison-operators"]
+  "plugins": ["transform-simplify-comparison-operators"]
 }
 ```
 
 #### Via CLI
 
 ```sh
-babel script.js --plugin simplify-comparison-operators
+babel script.js --plugin transform-simplify-comparison-operators
 ```
 
 #### Via Node API
 
 ```js
 require("babel-core").transform("code", {
-  plugins: ["simplify-comparison-operators"]
+  plugins: ["transform-simplify-comparison-operators"]
 });
 ```
