@@ -2,6 +2,8 @@
 
 > ***THIS PLUGIN HAS NOT YET BEEN IMPLEMENTED. WAITING ON THE UPDATED PROPOSAL***
 
+Compile class and object decorators to ES5
+
 ## Example
 
 **Input**

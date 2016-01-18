@@ -1,5 +1,7 @@
 # Exponentation Operator
 
+Compile exponentiation operator to ES5
+
 ## Example
 
 **Input**

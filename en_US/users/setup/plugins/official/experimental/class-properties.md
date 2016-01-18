@@ -1,5 +1,7 @@
 # Class Properties
 
+Compile static and instance class properties to ES2015
+
 ## Example
 
 **Input**

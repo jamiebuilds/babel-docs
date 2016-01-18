@@ -1,5 +1,7 @@
 # Object Rest Spread
 
+Compile object rest and spread to ES5
+
 ## Example
 
 **Input**

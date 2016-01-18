@@ -1,5 +1,7 @@
 # Do Expressions
 
+Compile do expressions to ES5
+
 ## Example
 
 **Input**

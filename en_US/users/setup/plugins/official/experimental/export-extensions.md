@@ -1,5 +1,7 @@
 # Export Extensions
 
+Compile export extensions to ES2015
+
 ## Example
 
 **Input**

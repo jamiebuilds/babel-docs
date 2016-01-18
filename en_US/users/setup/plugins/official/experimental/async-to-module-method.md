@@ -1,5 +1,7 @@
 # Async to Module Method
 
+Compile async functions to Bluebird coroutines
+
 ## Example
 
 **Input**

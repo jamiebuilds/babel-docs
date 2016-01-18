@@ -1,5 +1,7 @@
 # Class Constructor Call
 
+Compile class call constructors to ES2015
+
 ## Example
 
 **Input**

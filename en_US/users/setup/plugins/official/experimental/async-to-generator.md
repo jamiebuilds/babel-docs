@@ -1,5 +1,7 @@
 # Async to Generator
 
+Compile async functions to ES2015 generators
+
 ## Example
 
 **Input**

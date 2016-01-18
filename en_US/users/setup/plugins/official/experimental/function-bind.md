@@ -1,5 +1,7 @@
 # Function Bind
 
+Compile function bind operator to ES5
+
 ## Example
 
 **Input**
