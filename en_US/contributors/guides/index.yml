@@ -1,0 +1,13 @@
+files:
+  - name: Intro
+    path: Intro
+  - name: Setting up Development Environment
+    path: setting-up-development-env.md
+  - name: Navigating Codebase
+    path: navigating-codebase.md
+  - name: Debugging Tips
+    path: debugging-tips.md
+  - name: Writing Tests
+    path: writing-tests.md
+  - name: Issue Management
+    path: issue-management.md

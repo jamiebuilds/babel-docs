@@ -1,0 +1,5 @@
+directories:
+  - name: Guides
+    path: guides
+  - name: Setup
+    path: setup
