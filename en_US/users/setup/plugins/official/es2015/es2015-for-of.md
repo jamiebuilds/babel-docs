@@ -1,4 +1,4 @@
-# ES2015 For Of
+# ES2015 for...of
 
 Compile ES2015 for...of to ES5
 
@@ -7,11 +7,36 @@ Compile ES2015 for...of to ES5
 **Input**
 
 ```js
+for (let i of arr) {
+
+}
 ```
 
 **Output**
 
 ```js
+var _iteratorNormalCompletion = true;
+var _didIteratorError = false;
+var _iteratorError = undefined;
+
+try {
+  for (var _iterator = arr[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+    let i = _step.value;
+  }
+} catch (err) {
+  _didIteratorError = true;
+  _iteratorError = err;
+} finally {
+  try {
+    if (!_iteratorNormalCompletion && _iterator.return) {
+      _iterator.return();
+    }
+  } finally {
+    if (_didIteratorError) {
+      throw _iteratorError;
+    }
+  }
+}
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

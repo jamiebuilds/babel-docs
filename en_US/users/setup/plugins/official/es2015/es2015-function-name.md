@@ -1,4 +1,4 @@
-# ES2015 Function Name
+# ES2015 function.name
 
 Apply ES2015 function.name semantics to all functions
 
@@ -7,11 +7,17 @@ Apply ES2015 function.name semantics to all functions
 **Input**
 
 ```js
+var method = function() {
+  // ...
+};
 ```
 
 **Output**
 
 ```js
+var method = function method() {
+  // ...
+};
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

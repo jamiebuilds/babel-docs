@@ -1,9 +1,0 @@
-files:
-  - name: Jasmine
-    path: jasmine.md
-  - name: Jest
-    path: jest.md
-  - name: Karma
-    path: karma.md
-  - name: Mocha
-    path: mocha.md

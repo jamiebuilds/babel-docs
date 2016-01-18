@@ -7,11 +7,15 @@ Compile ES2015 unicode string and number literals to ES5
 **Input**
 
 ```js
+0b10
+"\u000A"
 ```
 
 **Output**
 
 ```js
+2
+"\n"
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

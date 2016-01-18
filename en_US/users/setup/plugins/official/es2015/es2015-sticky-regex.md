@@ -7,11 +7,13 @@ Compile ES2015 sticky regex to an ES5 RegExp constructor
 **Input**
 
 ```js
+/o+/y;
 ```
 
 **Output**
 
 ```js
+new RegExp("o+", "y");
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

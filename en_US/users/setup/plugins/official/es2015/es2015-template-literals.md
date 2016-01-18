@@ -7,11 +7,13 @@ Compile ES2015 template literals to ES5
 **Input**
 
 ```js
+`test ${value}`;
 ```
 
 **Output**
 
 ```js
+"test " + value;
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

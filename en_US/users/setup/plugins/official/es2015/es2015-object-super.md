@@ -1,4 +1,4 @@
-# ES2015 Object Super
+# ES2015 Object super
 
 Compile ES2015 object super to ES5
 
@@ -7,11 +7,23 @@ Compile ES2015 object super to ES5
 **Input**
 
 ```js
+var obj = {
+  method() {
+    return super.prop;
+  }
+};
 ```
 
 **Output**
 
 ```js
+var _obj;
+
+var obj = _obj = {
+  method: function () {
+    return _get(Object.getPrototypeOf(_obj), "prop", this);
+  }
+};
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

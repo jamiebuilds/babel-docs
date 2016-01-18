@@ -7,11 +7,14 @@ Validate ES2015 constants
 **Input**
 
 ```js
+const foo = true;
+foo = false;
 ```
 
 **Output**
 
 ```js
+Error: "foo" is read-only
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

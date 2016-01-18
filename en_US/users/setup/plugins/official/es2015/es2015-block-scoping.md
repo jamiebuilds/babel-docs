@@ -7,11 +7,19 @@ Compile ES2015 block scoping (const and let) to ES5
 **Input**
 
 ```js
+const foo = 1;
+if (true) {
+  let foo = 2;
+}
 ```
 
 **Output**
 
 ```js
+var foo = 1;
+if (true) {
+  var _foo = 2;
+}
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

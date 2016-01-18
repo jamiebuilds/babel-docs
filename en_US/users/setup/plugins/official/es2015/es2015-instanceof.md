@@ -1,4 +1,4 @@
-# ES2015 Instanceof
+# ES2015 instanceOf
 
 Compile ES2015 `instanceof` semantics to ES5
 
@@ -7,11 +7,13 @@ Compile ES2015 `instanceof` semantics to ES5
 **Input**
 
 ```js
+a instanceof b;
 ```
 
 **Output**
 
 ```js
+_instanceof(a, b);
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

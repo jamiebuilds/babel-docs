@@ -7,11 +7,30 @@ Compile ES2015 classes to ES5
 **Input**
 
 ```js
+class Test {
+  test() {
+    return 5 + 5;
+  }
+}
 ```
 
 **Output**
 
 ```js
+var Test = function () {
+  function Test() {
+    _classCallCheck(this, Test);
+  }
+
+  _createClass(Test, [{
+    key: "test",
+    value: function test() {
+      return 5 + 5;
+    }
+  }]);
+
+  return Test;
+}();
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

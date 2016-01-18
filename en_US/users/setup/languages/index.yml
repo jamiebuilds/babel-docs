@@ -1,7 +1,0 @@
-files:
-  - name: "C#/.NET"
-    path: c-sharp-dot-net.md
-  - name: Node
-    path: node.md
-  - name: Ruby
-    path: ruby.md

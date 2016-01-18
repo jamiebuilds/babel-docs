@@ -8,11 +8,19 @@ scoped.
 **Input**
 
 ```js
+function foo() {}
+if (true) {
+  function bar() {}
+}
 ```
 
 **Output**
 
 ```js
+function foo() {}
+if (true) {
+  let bar = function() {}
+}
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

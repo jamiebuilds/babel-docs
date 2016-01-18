@@ -7,11 +7,27 @@ Compile ES2015 default and rest parameters to ES5
 **Input**
 
 ```js
+function method(param = "default") {
+  // ...
+}
+function method2(...rest) {
+  // ...
+}
 ```
 
 **Output**
 
 ```js
+function method() {
+  var param = arguments.length <= 0 || arguments[0] === undefined ? "default" : arguments[0];
+  // ...
+}
+function method2(...rest) {
+  for (var _len = arguments.length, rest = Array(_len), _key = 0; _key < _len; _key++) {
+    b[_key] = arguments[_key];
+  }
+  // ...
+}
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

@@ -7,11 +7,13 @@ Compile ES2015 spread to ES5
 **Input**
 
 ```js
+[a, ...b, c];
 ```
 
 **Output**
 
 ```js
+[a].concat(_toConsumableArray(b), [c]);
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

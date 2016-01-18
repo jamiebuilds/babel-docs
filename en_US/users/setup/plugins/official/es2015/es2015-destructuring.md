@@ -7,11 +7,16 @@ Compile ES2015 destructuring to ES5
 **Input**
 
 ```js
+const coords = { x: 1, y: 2 };
+const { x, y } = coords;
 ```
 
 **Output**
 
 ```js
+const coords = { x: 1, y: 2 };
+const x = coords.x;
+const y = coords.y;
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

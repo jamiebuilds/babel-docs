@@ -1,4 +1,4 @@
-# ES2015 Typeof Symbol
+# ES2015 typeof Symbol
 
 Ensure `typeof` works with ES2015 Symbols.
 
@@ -7,11 +7,13 @@ Ensure `typeof` works with ES2015 Symbols.
 **Input**
 
 ```js
+typeof s === "symbol"
 ```
 
 **Output**
 
 ```js
+(typeof s === "undefined" ? "undefined" : _typeof(s)) === "symbol"
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

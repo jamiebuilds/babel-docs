@@ -7,11 +7,15 @@ Compile ES2015 computed properties to ES5
 **Input**
 
 ```js
+var obj = {
+  ["x" + foo]: "heh"
+};
 ```
 
 **Output**
 
 ```js
+var obj = _defineProperty({}, "x" + foo, "heh");
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

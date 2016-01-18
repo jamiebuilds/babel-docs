@@ -1,0 +1,15 @@
+# Babel Official Other Plugins Documentation
+
+- [Eval](eval)
+- [Flow Comments](flow-comments)
+- [Flow Strip Types](flow-strip-types)
+- [Inline Environment Variables](inline-environment-variables)
+- [JScript](jscript)
+- [Node ENV inline](node-env-inline)
+- [Object.assign](object-assign)
+- [Object.setPrototypeOf to assign](object-set-prototype-of-to-assign)
+- [Proto to assign](proto-to-assign)
+- [Regenerator](regenerator)
+- [Runtime](runtime)
+- [Stict Mode](strict-mode)
+- [Undefined to Void](undefined-to-void)

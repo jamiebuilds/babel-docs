@@ -7,11 +7,21 @@ Compile ES2015 shorthand properties to ES5
 **Input**
 
 ```js
+var obj = {
+  method() {
+    return 5 + 5;
+  }
+};
 ```
 
 **Output**
 
 ```js
+var obj = {
+  method: function() {
+    return 5 + 5;
+  }
+};
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

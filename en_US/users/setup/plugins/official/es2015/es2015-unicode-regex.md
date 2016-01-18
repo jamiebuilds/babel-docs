@@ -7,11 +7,15 @@ Compile ES2015 unicode regex to ES5
 **Input**
 
 ```js
+var string = "foo💩bar";
+var match = string.match(/foo(.)bar/u);
 ```
 
 **Output**
 
 ```js
+var string = "foo💩bar";
+var match = string.match(/foo((?:[\0-\t\x0B\f\x0E-\u2027\u202A-\uD7FF\uE000-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF]))bar/);
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation
