@@ -1,0 +1,34 @@
+files:
+  - name: ES2015 Arrow Functions
+    path: es2015-arrow-functions.md
+  - name: ES2015 Block Scoped Functions
+    path: es2015-block-scoped-functions.md
+  - name: ES2015 Block Scoping
+    path: es2015-block-scoping.md
+  - name: ES2015 Classes
+    path: es2015-classes.md
+  - name: ES2015 Computed Properties
+    path: es2015-computed-properties.md
+  - name: ES2015 Constants
+    path: es2015-constants.md
+  - name: ES2015 Destructuring
+    path: es2015-destructuring.md
+  - name: ES2015 For Of
+    path: es2015-for-of.md
+  - name: ES2015 Function Name
+    path: es2015-function-name.md
+  - name: ES2015 Literals
+    path: es2015-literals.md
+  - name: ES2015 Object Super
+    path: es2015-object-super.md
+  - name: ES2015 Parameters
+    path: es2015-parameters.md
+  - name: ES2015 Shorthand Properties
+    path: es2015-shorthand-properties.md
+  - name: ES2015 Spread
+    path: es2015-spread.md
+  - name: ES2015 Sticky Regex
+    path: es2015-sticky-regex.md
+  - name: ES2015 Unicode Regex
+    path: es2015-unicode-regex.md
+

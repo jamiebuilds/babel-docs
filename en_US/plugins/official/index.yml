@@ -1,0 +1,13 @@
+directories:
+  - name: ES2015
+    path: es2015
+  - name: Experimental
+    path: experimental
+  - name: Minification
+    path: minification
+  - name: Modules
+    path: modules
+  - name: Other
+    path: other
+  - name: React
+    path: react

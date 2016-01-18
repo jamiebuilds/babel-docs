@@ -1,0 +1,9 @@
+files:
+  - name: DocumentationJS
+    path: documentationjs.md
+  - name: ESLint
+    path: eslint.md
+  - name: Istanbul
+    path: istanbul.md
+  - name: JSCS
+    path: jscs.md

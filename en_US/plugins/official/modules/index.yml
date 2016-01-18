@@ -1,0 +1,9 @@
+files:
+  - name: ES2015 Modules AMD
+    path: es2015-modules-amd.md
+  - name: ES2015 Modules CommonJS
+    path: es2015-modules-commonjs.md
+  - name: ES2015 Modules SystemJS
+    path: es2015-modules-systemjs.md
+  - name: ES2015 Modules UMD
+    path: es2015-modules-umd.md

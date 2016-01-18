@@ -1,0 +1,13 @@
+directories:
+  - name: Build Systems
+    path: build-systems
+  - name: Editors
+    path: editors
+  - name: Frameworks
+    path: frameworks
+  - name: Languages
+    path: languages
+  - name: Plugins
+    path: plugins
+  - name: Test Frameworks
+    path: test-frameworks
