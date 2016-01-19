@@ -1,15 +1,28 @@
 # ES2015 Modules CommonJS
 
+Convert ES2015 modules to CommonJS modules
+
 ## Example
 
 **Input**
 
 ```js
+import myModule from "myModule";
+
+export default function() {
+  myModule.method();
+}
 ```
 
 **Output**
 
 ```js
+var _myModule = require("myModule");
+var _myModule2 = _interopRequireDefault(_myModule);
+
+exports.default = function() {
+  _myModule2.default.method();
+};
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

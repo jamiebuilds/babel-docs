@@ -1,15 +1,38 @@
 # ES2015 Modules SystemJS
 
+Convert ES2015 modules to SystemJS modules
+
 ## Example
 
 **Input**
 
 ```js
+import myModule from "myModule";
+
+export default function() {
+  myModule.method();
+}
 ```
 
 **Output**
 
 ```js
+System.register(["myModule"], function (_export, _context) {
+  var myModule;
+
+  _export("default", function () {
+    myModule.method();
+  });
+
+  return {
+    setters: [function(_myModule) {
+      myModule = _myModule.default;
+    }],
+    execute: function () {
+      _export("default", foo);
+    }
+  };
+});
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation
