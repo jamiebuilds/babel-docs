@@ -1,15 +1,27 @@
 # Property Literals
 
+Turn valid property key literals to plain identifiers
+
 ## Example
 
 **Input**
 
 ```js
+var obj = {
+  "foo": "isValid",
+  var: "isKeyword",
+  "const": "isKeyword"
+};
 ```
 
 **Output**
 
 ```js
+var obj = {
+  foo: "isValid",
+  "var": "isKeyword",
+  "const": "isKeyword"
+};
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

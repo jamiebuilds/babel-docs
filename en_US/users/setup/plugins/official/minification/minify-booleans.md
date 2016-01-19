@@ -1,15 +1,21 @@
 # Minify Booleans
 
+Turn boolean literals into `!0` for `true` and `!1` for `false`.
+
 ## Example
 
 **Input**
 
 ```js
+true;
+false;
 ```
 
 **Output**
 
 ```js
+!0;
+!1;
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

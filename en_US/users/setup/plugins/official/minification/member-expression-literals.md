@@ -1,15 +1,23 @@
 # Member Expression Literals
 
+Turn valid member expression property literals into plain identifiers
+
 ## Example
 
 **Input**
 
 ```js
+obj["foo"] = "isValid";
+obj.const = "isKeyword";
+obj["var"] = "isKeyword";
 ```
 
 **Output**
 
 ```js
+obj.foo = "isValid";
+obj["const"] = "isKeyword";
+obj["var"] = "isKeyword";
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

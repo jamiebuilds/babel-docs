@@ -1,15 +1,20 @@
 # Simplify Comparison Operators
 
+Convert `===` and `!==` to `==` and `!=` if their types are inferred to be the
+same.
+
 ## Example
 
 **Input**
 
 ```js
+typeof value === "object";
 ```
 
 **Output**
 
 ```js
+typeof value == "object";
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

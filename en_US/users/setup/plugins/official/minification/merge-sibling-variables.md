@@ -1,15 +1,21 @@
 # Merge Sibling Variables
 
+Merge sibling variables declarations into one declaration.
+
 ## Example
 
 **Input**
 
 ```js
+var foo = "bar";
+var bar = "foo";
 ```
 
 **Output**
 
 ```js
+var foo = "bar",
+    bar = "foo";
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

@@ -1,15 +1,20 @@
 # Remove Console
 
+Remove `console.*` calls
+
 ## Example
 
 **Input**
 
 ```js
+console.log("foo");
+method();
 ```
 
 **Output**
 
 ```js
+method();
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation

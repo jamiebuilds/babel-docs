@@ -1,15 +1,20 @@
 # Remove Debugger
 
+Remove `debugger` statements
+
 ## Example
 
 **Input**
 
 ```js
+debugger;
+method();
 ```
 
 **Output**
 
 ```js
+method();
 ```
 
 > Note that the output may not be exactly what is above. Babel's implementation
